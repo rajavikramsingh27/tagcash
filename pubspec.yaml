@@ -1,0 +1,169 @@
+name: tagcash
+description: Tagcash new app.
+
+publish_to: 'none'
+version: 7.10.8+460
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_web_plugins:
+      sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  package_info_plus: ^1.0.0
+  device_info_plus: ^1.0.0
+  http: ^0.13.3
+  dio: ^4.0.0
+  pretty_dio_logger: ^1.1.1
+  intl: ^0.17.0
+  collection: ^1.15.0
+  web_browser_detect: ^2.0.2
+  uuid: ^3.0.4
+  provider: ^5.0.0
+  shared_preferences: ^2.0.5
+  font_awesome_flutter: ^9.0.0
+  webview_flutter: ^2.0.4
+  location: ^4.1.1
+  path_provider: ^2.0.1
+  qr_flutter: ^4.0.0
+  barcode_widget: ^2.0.1
+  ai_barcode: ^3.0.0
+  permission_handler: ^6.0.1
+  mapbox_gl: ^0.12.0
+  image_picker: ^0.7.4
+  image_cropper: ^1.4.0
+  camera: ^0.8.1
+  cached_network_image: ^3.0.0
+  local_auth: ^1.1.6
+  url_launcher: ^6.0.3
+  file_picker: ^3.0.1
+  file_selector: ^0.8.2
+  flutter_slidable: ^0.6.0
+  nfc_manager: ^3.0.0+1
+  flutter_contact: ^0.8.1+2
+  video_player: ^2.1.10
+  #uni_links: ^0.5.1
+  uni_links2: ^0.6.0+2
+  firebase_core: ^1.4.0
+  firebase_messaging: ^10.0.4
+  flutter_facebook_auth: ^3.4.1
+  google_sign_in: ^5.0.4
+  overlay_support: ^1.2.1
+  fluttertoast: ^8.0.6
+  share_plus: ^2.0.3
+  custom_sliding_segmented_control: ^1.0.0
+  jiffy: ^4.1.0
+  flutter_svg: ^0.22.0
+  universal_ui: ^0.0.8
+  universal_html: ^2.0.8
+  universal_platform: ^1.0.0-nullsafety
+  pin_code_fields: ^7.2.0
+  event_bus: ^2.0.0
+
+  shimmer_animation: ^2.0.0
+  flutter_date_pickers: ^0.2.4
+  flutter_colorpicker: ^0.4.0
+  hexcolor: ^2.0.3
+  toast: ^0.1.5
+  time_range_picker: ^2.0.1
+  page_indicator: ^0.4.1
+  datetime_picker_formfield: ^2.0.0
+
+  flutter_html: ^2.1.0
+  flutter_conditional_rendering: ^2.0.0
+  tcard: ^1.3.5
+
+  socket_io_client: ^1.0.1
+  mobx: ^2.0.1
+  flutter_mobx: ^2.0.0
+  bubble: ^1.2.1
+  rxdart: ^0.27.1
+  connectivity: ^3.0.6
+  progress_dialog: ^1.2.4
+  full_screen_image: ^1.0.2
+  rflutter_alert: ^2.0.2
+  jitsi_meet: ^4.0.0
+  flutter_animated_dialog: ^2.0.0
+  photo_view: ^0.11.1
+  scrollable_positioned_list: ^0.1.10
+  skeleton_text: ^3.0.0
+  flutter_sound: ^8.3.9
+
+  flutter_keyboard_visibility: ^5.0.2
+  emoji_chooser: ^0.9.2
+  geocoder: ^0.2.1
+  live_location: ^1.0.1
+  location_permissions: ^4.0.0
+  flutter_map: ^0.13.1
+  flutter_document_picker: ^4.0.0
+  contacts_service: ^0.6.1
+  storage_path: ^0.2.0
+
+
+  # flutter_stripe: ^1.1.0
+  stripe_sdk: ^5.0.0-nullsafety.0
+  flutter_credit_card: ^2.0.0
+  fdottedline: ^1.0.1
+  video_compress: ^3.1.0
+  carousel_slider: ^4.0.0
+  cached_video_player: ^1.0.3
+
+  #for crypto wallet
+  bip32: ^1.0.7
+  bip39: ^1.0.6
+  fbroadcast: ^1.1.1
+  shimmer: ^2.0.0
+  clipboard: ^0.1.3
+  share: ^2.0.4
+  web3dart: ^2.1.4
+  bitcoin_flutter: ^2.0.2
+  flutter_numpad_widget: ^0.1.1
+  encrypt: ^5.0.1
+  device_info: ^2.0.2
+  web_socket_channel: ^2.1.0
+  #stellar_flutter_sdk:
+  #  path : /Users/bhavan/development/stellar_flutter_sdk
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # build_runner: ^1.7.2
+  # mobx_codegen: ^1.0.0
+
+dependency_overrides:
+  pointycastle: ">=3.2.0"
+  crypto: "^2.1.1"
+  #http: ">=0.13.3"
+  convert: "^2.0.2"
+  #toml: "^0.11.0"
+  #http_parser: ">=4.0.0"
+  #logging: ">=1.0.1"
+  #fixnum: ">=1.0.0"
+  hex: "^0.2.0"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+   - assets/images/
+   - assets/images/2.0x/
+   - assets/images/3.0x/
+   - assets/svg/
+   - assets/currency/
+   - lang/en.json
+   - lang/es.json
+   - lang/ar.json
+   - lang/hi.json
+
+
+  fonts:
+    - family: CategoryIcon
+      fonts:
+        - asset: assets/font/CategoryIcon.ttf

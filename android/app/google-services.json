@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "810140454286",
+    "firebase_url": "https://tagcashwalletnew.firebaseio.com",
+    "project_id": "tagcashwalletnew",
+    "storage_bucket": "tagcashwalletnew.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:810140454286:android:835f8d9aac475124",
+        "android_client_info": {
+          "package_name": "com.tagcash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "810140454286-1gilf68vf37uf7fm2613c28bv2ia1sli.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tagcash",
+            "certificate_hash": "308dc2435534465e7ec0b8216cb3198a550be510"
+          }
+        },
+        {
+          "client_id": "810140454286-tpubdf4njfsl46mlp4thbafmjpv867q3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tagcash",
+            "certificate_hash": "63aade226366577c557bb6abb37c542e3857ad8b"
+          }
+        },
+        {
+          "client_id": "810140454286-vud63uff460534eudlv0p3efmr1t7ga5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tagcash",
+            "certificate_hash": "fd73993bbc48ef804b16cf4027d66a547dba18a5"
+          }
+        },
+        {
+          "client_id": "810140454286-43shf96i51psfqthcn02i5vveico3328.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACTWptgs31VSuytsikWMV8_q_98DojHc0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "810140454286-43shf96i51psfqthcn02i5vveico3328.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "810140454286-dv4ra0kfggro37nmkkbg412u7e3vldel.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.tagcash.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

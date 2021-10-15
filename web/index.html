@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="tagcash_new">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png" />
+
+  <!-- GOOGLE SIGN IN -->
+  <meta name="google-signin-client_id"
+    content="1066702395535-pdqhh9qufrs8iaubef5501r7v56opffr.apps.googleusercontent.com">
+
+  <!-- Mapbox -->
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.6.1/mapbox-gl.js'></script>
+
+  <title>Tagcash</title>
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Flutter sound -->
+  <script src="assets/packages/flutter_sound_web/js/flutter_sound/flutter_sound.js"></script>
+  <script src="assets/packages/flutter_sound_web/js/flutter_sound/flutter_sound_player.js"></script>
+  <script src="assets/packages/flutter_sound_web/js/flutter_sound/flutter_sound_recorder.js"></script>
+  <script src="assets/packages/flutter_sound_web/js/howler/howler.js"></script>
+</head>
+
+<body>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-messaging.js"></script>
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyA0g0UTxRNyDKlURKhcwvN3MkdfcAGy_XM",
+      authDomain: "tagcashwalletnew.firebaseapp.com",
+      databaseURL: "https://tagcashwalletnew.firebaseio.com",
+      projectId: "tagcashwalletnew",
+      storageBucket: "tagcashwalletnew.appspot.com",
+      messagingSenderId: "810140454286",
+      appId: "1:810140454286:web:90ff94a497e65e30e128df"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('flutter-first-frame', function () {
+        navigator.serviceWorker.register('flutter_service_worker.js');
+      });
+    }
+  </script>
+  <script src="https://meet.jit.si/external_api.js" type="application/javascript"></script>
+  <script src="main.dart.js" type="application/javascript"></script>
+
+</body>
+
+</html>
